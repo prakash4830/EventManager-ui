@@ -1,0 +1,17 @@
+.event-wraper{
+    border: 1px solid palevioletred;
+    padding: 20px;
+    display:inline-block;
+    width: 300px;
+    border-width: 3px;
+    margin: 50px;
+    background-color: aqua;
+}
+.name{
+    font-weight: bold;
+   
+}
+.event-wraper{
+    margin-bottom: 20px;
+    
+}
