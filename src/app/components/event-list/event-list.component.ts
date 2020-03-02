@@ -21,7 +21,7 @@ export class EventListComponent implements OnInit {
 
    getEventList()
    {
-     let url="http://localhost:8080/page1/page5";
+     let url="https://serene-escarpment-99047.herokuapp.com:8080/page1/page5";
      this.httpClient.get(url)
      .subscribe(response => {this.eventList=response;});
      
